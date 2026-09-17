@@ -1,0 +1,43 @@
+# ============================================================
+# IlluminaGIS — .gitignore
+# ============================================================
+
+# Build (MAI committare)
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Installer output
+*.exe
+*.msi
+installer/Output/
+
+# ============================================================
+# DATI SENSIBILI — MAI COMMITTARE
+# ============================================================
+*.db
+*.db-shm
+*.db-wal
+*.lic
+azienda.json
+config.json
+recent_projects.json
+CREDENZIALI*.txt
+*password*
+*secret*
+*token*
+
+# Dati utente
+Data/
+Backup/
+Foto/
+
+# ============================================================
+# OS / Editor
+# ============================================================
+Thumbs.db
+.DS_Store
+desktop.ini
+*.log
