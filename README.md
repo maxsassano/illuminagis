@@ -2,7 +2,7 @@
 
 **Sistema Informativo per la Gestione dell'Illuminazione Pubblica**
 
-**Versione:** v1.0.0
+<sub>IlluminaGIS v1.0.1 · Made with ❤️ in Italia</sub>
 
 [![Release](https://img.shields.io/github/v/release/maxsassano/illuminagis?color=blue)](https://github.com/maxsassano/illuminagis/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20(64--bit)-informational)](https://github.com/maxsassano/illuminagis)
