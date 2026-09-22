@@ -2,7 +2,7 @@
 
 **Sistema Informativo per la Gestione dell'Illuminazione Pubblica**
 
-<sub>IlluminaGIS v1.0.1 · Made with ❤️ in Italia</sub>
+<sub>IlluminaGIS v1.0.2 · Made with ❤️ in Italia</sub>
 
 [![Release](https://img.shields.io/github/v/release/maxsassano/illuminagis?color=blue)](https://github.com/maxsassano/illuminagis/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows%2010%2F11%20(64--bit)-informational)](https://github.com/maxsassano/illuminagis)
@@ -33,10 +33,10 @@ Scarica l'ultima versione dalla pagina [**Releases**](https://github.com/maxsass
 - ☀️ **Pali fotovoltaici** — rilevamento automatico + calcolo risparmio energetico
 - 📊 **Statistiche avanzate** — 6 tab con perdite di carico e conto economico
 - 🔧 **Lavori a 5 stati** — assegnazione, consegna, verifica, accettazione
-- 💬 **Segnalazioni** — dagli Operai all'Admin con GPS e foto
+- 💬 **Segnalazioni** — dai Responsabili Tecnici all'Admin con GPS e foto
 - 📋 **Preventivi** — con righe e conversione automatica in pali reali
 - 📄 **Report PDF / Excel / CSV** — con logo aziendale personalizzabile
-- 👥 **Multi-utente** — Admin / Operaio / SuperUser su NAS o PC-server
+- 👥 **Multi-utente** — Admin / Responsabile Tecnico / SuperUser su NAS o PC-server
 - 🗺️ **Mappa interattiva** — Leaflet.js con marker colorati per stato
 - 💾 **Backup automatico** — all'apertura, chiusura e prima delle operazioni critiche
 - 📚 **Manuale Utente** — 110 pagine incluse nell'installazione
@@ -89,7 +89,7 @@ Scarica l'ultima versione dalla pagina [**Releases**](https://github.com/maxsass
 
 ## 🚀 Installazione
 
-1. **Scarica** il file `IlluminaGIS_Setup_v1.0.0.exe` dalla pagina [**Releases**](https://github.com/maxsassano/illuminagis/releases)
+1. **Scarica** il file `IlluminaGIS_Setup_v1.0.2.exe` dalla pagina [**Releases**](https://github.com/maxsassano/illuminagis/releases)
 2. **Esegui** l'installer (doppio click — nessun privilegio admin richiesto)
 3. **Al primo avvio** configura il percorso dati:
    - Cartella locale (singolo PC)
@@ -124,6 +124,24 @@ Per uso con più postazioni sulla stessa cartella dati:
 
 ---
 
+## 🆕 Novità v1.0.2
+
+- 🔄 **Refactor nomenclatura**: ruolo "Operaio" rinominato in **"Responsabile Tecnico"** in tutta l'interfaccia (login, menu, Home, gestione utenti, Help)
+- ✏️ **Apri scheda / Vedi scheda** — il pulsante nella Home del Responsabile Tecnico cambia automaticamente in base allo stato del lavoro (editabile solo se Assegnato/Rifiutato, sola lettura se Consegnato/Accettato)
+- 🖱️ **Doppio click** sullo storico lavori per aprire il dettaglio in sola lettura
+- 🗑️ **Soft-delete Lavori e Manutenzioni** (Annulla / Ripristina)
+- 👤 **Campo Manutentore** nella scheda lavoro
+- 📋 **Protocollo PEC** strutturato e ricercabile (Lavori + Manutenzioni)
+- ➕ **Pulsante rapido Manutenzione** in Home Admin
+- 🚫 **Gating Responsabile Tecnico** — pulsanti nascosti in Palo/Cabina
+- 🔍 **Filtro Stato** nello storico lavori del Responsabile Tecnico
+- 🧹 **Clean DB**: eliminazione definitiva righe annullate
+- ⚡ Ottimizzazione gestione foto in NuovaManutenzioneWindow
+- 🐛 **Fix** pulsante "Nuovo Progetto" in StartupWindow
+- 🐛 Bugfix vari
+
+---
+
 ## 🆘 Supporto
 
 Per **bug**, **suggerimenti** o **richieste di funzionalità**:
@@ -142,5 +160,5 @@ La redistribuzione, la decompilazione o la modifica non autorizzata sono vietate
 ---
 
 <p align="center">
-  <sub>IlluminaGIS v1.0.0 · Made with ❤️ in Italia</sub>
+  <sub>IlluminaGIS v1.0.2 · Made with ❤️ in Italia</sub>
 </p>
