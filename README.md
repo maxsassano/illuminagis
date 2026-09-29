@@ -159,6 +159,16 @@ La redistribuzione, la decompilazione o la modifica non autorizzata sono vietate
 
 ---
 
+## ☕ Sostieni il progetto
+
+Se l'app ti è utile, puoi offrirmi un caffè:
+
+[![PayPal](https://img.shields.io/badge/PayPal-Offrimi%20un%20caffè-0070BA?logo=paypal)](https://paypal.me/veruscatanese)
+
+Ogni contributo aiuta a mantenere il progetto attivo e senza pubblicità. Grazie! 🙏
+
+---
+
 <p align="center">
   <sub>IlluminaGIS v1.0.2 · Made with ❤️ in Italia</sub>
 </p>
